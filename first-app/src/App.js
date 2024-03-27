@@ -7,6 +7,7 @@ import FeedbackForm from './component/FeedbackForm';
 import Counter from './component/Counter';
 import UseStateForm from './component/UseStateForm';
 import UseStateFormSingleEvent from './component/UseStateFormSingleEvent';
+import UpdateList from './component/UpdateList';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
 
      <UseStateForm/>
 */}
-     <UseStateFormSingleEvent/>
+     <UpdateList/>
     </>
   );
 }
