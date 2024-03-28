@@ -8,6 +8,7 @@ import Counter from './component/Counter';
 import UseStateForm from './component/UseStateForm';
 import UseStateFormSingleEvent from './component/UseStateFormSingleEvent';
 import UpdateList from './component/UpdateList';
+import FormManagingState from './component/managingState/FormManagingState';
 
 function App() {
   return (
@@ -19,8 +20,10 @@ function App() {
      <Counter/>
 
      <UseStateForm/>
-*/}
+
      <UpdateList/>
+*/}
+     <FormManagingState/>
     </>
   );
 }
